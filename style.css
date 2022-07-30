@@ -11,19 +11,27 @@ body {
 
 .container {
   /* background-color: yellow; */
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: 2px solid #ebe0e0;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px #999;
 }
 
 .header {
-  height: 250px;
+  height: 220px;
   background-image: url(coffe.jpg);
+  background-color: #444;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   /* width: 100%; */
-  padding: 20px 20px;
+  padding: 10px 20px;
   margin-bottom: 30px;
   color: yellow;
+}
+
+.form {
+  padding: 0 10px;
 }
 
 .label {
